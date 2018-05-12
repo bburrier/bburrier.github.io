@@ -2,7 +2,7 @@
 You're starting a bank and you need a way to manage your clients and all the deposits and withdrawals that are going to happen. Since you're in a web development course, let's use software!
 
 ## Data/API Requirements
-1. You will use sequelize to model and support CRUD operations for three types of records: `user`, `account`, `transaction`
+1. You will use sequelize to model and support *create* and *read* operations for three types of records: `user`, `account`, `transaction`.
 2. A `user` record should store the person's name and address. A `user` may have multiple accounts.
 3. An `account` record should have a name and type (ex. 'checking', 'savings') and belongs to one `user`.
 4. A `transaction` is associated with one `account`, can represent a deposit or withdrawal, and should have a description.
