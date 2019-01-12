@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Firebase</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.0/firebase.js"></script>
+
+    <style>
+      body {
+        margin: 10px;
+        padding: 0px;
+      }
+
+      .title {
+        margin: 0px;
+        padding: 0px;
+        color: #443;
+        font-size: 20px;
+        font-family: 'Roboto Slab', serif;
+        display: flex;
+        align-items: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="title">
+      <img src="https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_28dp.png">
+      Hello Firebase.
+    </div>
+  </body>
+
+  <script>
+      // Initialize Firebase
+      var config = {
+          apiKey: "AIzaSyDrfdhQkfmFnOglrN_qPP-Rzzsp5bXrgeA",
+          authDomain: "fir-b78e7.firebaseapp.com",
+          databaseURL: "https://fir-b78e7.firebaseio.com",
+          projectId: "fir-b78e7",
+          storageBucket: "",
+          messagingSenderId: "461460284165"
+      };
+      firebase.initializeApp(config);
+
+      var db = firebase.database();
+
+
+    </script>
+
+</html>
